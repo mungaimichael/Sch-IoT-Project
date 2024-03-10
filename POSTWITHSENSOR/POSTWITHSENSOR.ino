@@ -6,8 +6,8 @@
 const char* ssid = "HOTBOX";
 const char* password = "grandson@2001";
 const char* serverName = "https://projectserver-mbht.onrender.com/sensorState";
-const int WIFI_RECONNECT_DELAY = 5000; // 5 seconds
-const int REQUEST_DELAY = 20000; // 20 seconds
+const int WIFI_RECONNECT_DELAY = 20000; 
+const int REQUEST_DELAY = 60000; 
 
 void setup() {
   Serial.begin(115200);
